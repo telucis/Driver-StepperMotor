@@ -4,6 +4,7 @@ A driver of the precise stepper motor
 #工作模式
   驱动机构各挡板围绕中心点做-10°到60°往返运动，每隔0.1度，后端电路会同步采集一次传感器压力信号。电机会在起点和重点发出同步脉冲，脉冲宽度为1ms
 ，高度为3.3V，分别检测起点脉冲上升沿和终点脉冲上升沿，作为+60°和-10°的采集传感器的同步时钟。
+<br>
 
 #参数考虑
 ##精度
@@ -24,3 +25,5 @@ A driver of the precise stepper motor
 ![](images/torque.png)
 ##原理设计图
 ![](images/flowchart.png)
+
+附：原理图、PCB和电机驱动程序
